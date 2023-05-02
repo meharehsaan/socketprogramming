@@ -170,7 +170,6 @@ def receive(sock):
 if __name__ == '__main__':
     # if len(sys.argv) != 2:
     #     print('Expected filename as command line argument')
-    #     exit()
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind(SENDER_ADDR)

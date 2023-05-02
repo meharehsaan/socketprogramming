@@ -61,6 +61,7 @@ def stopAndWait():
     data = msg.encode("utf-8")
     sender.sendto(data, raddress)
 
+# Welcome
 print("Welcome to the world of sockets where we communicate using ports")
 print(f"Loss percentage receiver thinks :: {perloss}")
 print("Recever IP and Port :: " , raddress)

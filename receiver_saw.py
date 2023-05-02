@@ -70,6 +70,7 @@ def stopAndWait():
     file.write(fullmsg)
     file.close()
     
+    # stats
     print(f"Total Data packets received {count - ecount}")
     print(f"Total Data packets lost {ecount}")
     print(f"Time taken in transfer {elapsed}")

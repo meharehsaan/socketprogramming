@@ -16,6 +16,7 @@ def extract(packet):
 
 DROP_PROB = 8
 
+# Sending packet
 def send(packet, sock, addr):
     if random.randint(0, DROP_PROB) > 0:
         sock.sendto(packet, addr)

@@ -43,6 +43,7 @@ def filewithheader():
         # reading remaining data from file 
         line = file.read(bfsize)
 
+    # closing file
     file.close()
     end = time.time()
     elapsed = end - start  

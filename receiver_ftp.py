@@ -46,6 +46,7 @@ def filewithheader():
         else:
             print("Checksum :: !error")
 
+    # closing file
     file.close()
     end = time.time()
     elapsed = end - start
